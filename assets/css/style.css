@@ -7,3 +7,15 @@
 .container2:hover {
     transition: all;
 }
+
+
+
+  .aboutImg {
+    height: 500px;
+    width: 700px;
+    object-fit: contain;
+  }
+  .footer {
+    justify-content: center;
+    padding: 10px;
+  }
