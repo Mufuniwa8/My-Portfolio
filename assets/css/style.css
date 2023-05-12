@@ -1,10 +1,10 @@
-
 body {
   background: blue;
 }
 
 /* skills styling */
 .container-project2 {
+  /* background-color: black; */
   width: 300px;
   height: 300px;
   padding: 10px;
@@ -21,12 +21,12 @@ body {
   /* Text Positioning */
   align-items: center;
   justify-content: center;
-
   background-color: rgba(255, 166, 0, 0.562);
   color: white;
   opacity: 0;
   transition: 1s;
 }
+
 .text-overlay1:hover {
   opacity: 1;
 }
@@ -71,13 +71,12 @@ body {
 /* end of skills styling */
 
 /* project styling */
-.container-project1 { 
+.container-project1 {
   /* background-position: 0%; */
   background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
   height: 300px;
-  
 }
 
 .text-overlay {
@@ -122,27 +121,30 @@ body {
   width: 0;
 }
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-  .aboutImg {
-    height: 500px;
-    width: 700px;
-    object-fit: contain;
-  }
-  .footer {
-    justify-content: center;
-    padding: 10px;
-  }
-  .img {
-    width: 550px;
-    height: 400px;
-    padding-left: 10%;
-  }
+.aboutImg {
+  height: 500px;
+  width: 700px;
+  object-fit: contain;
+}
+.footer {
+  justify-content: center;
+  padding: 10px;
+}
+.img {
+  width: 550px;
+  height: 400px;
+  padding-left: 10%;
+}
 
-  /* timeline */
-  
+/* timeline */
 
 *,
 *::before,
@@ -154,7 +156,7 @@ body {
 
 body {
   color: black;
-  background-Color: rgba(245, 245, 245);
+  background-color: rgba(245, 245, 245);
   min-height: 100vh;
   display: grid;
   align-content: center;
@@ -242,8 +244,6 @@ ul li .date::before {
   right: 0;
 }
 
-
-
 ul li .descr {
   padding-block-end: 1.5rem;
   font-weight: 300;
@@ -315,3 +315,12 @@ ul li .descr::before {
 ul li .date:hover {
   opacity: 1;
 }
+
+/* media */
+
+@media  screen and (max-width: 700px){
+
+} 
+
+
+/* end of media */
